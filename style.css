@@ -3,19 +3,27 @@
     background-color: black;
 }
 
+
+
+body {
+
+}
+
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/heroimage5.jpg');
-    background-size:cover;
+    /* width: 100vw; */
+    background: url('images/heroImage1.jpg');
+    background-size: 100vw;
     position:relative;
 }
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
+    font-weight: 200;
 }
 .hero_desc {
-    font-size: 2rem;
+    font-size: 3.5rem;
 }
 .hero-text {
     text-align: center;
