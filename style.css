@@ -3,17 +3,11 @@
     background-color: black;
 }
 
-
-
-body {
-
-}
-
 /* hero background image */
 .bgimage {
     height:100vh;
     /* width: 100vw; */
-    background: url('images/heroImage1.jpg');
+    background: url('images/heroimage2.jpg');
     background-size: 100vw;
     position:relative;
 }
@@ -22,8 +16,9 @@ body {
     font-size: 4.5rem;
     font-weight: 200;
 }
+
 .hero_desc {
-    font-size: 3.5rem;
+    font-size: 1.5rem;
 }
 .hero-text {
     text-align: center;
