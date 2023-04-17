@@ -1,6 +1,6 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: rgb(13, 8, 43);
+    background-color: rgb(51, 3, 3);
 }
 
 /* hero background image */
@@ -27,7 +27,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: rgb(221, 221, 221);
 }
 
 /* spacing on all sections */
