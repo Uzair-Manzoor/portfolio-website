@@ -1,15 +1,16 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: rgb(13, 8, 43);
 }
 
 /* hero background image */
 .bgimage {
-    height:100vh;
+    height: 100vh;
     width: 100vw;
-    background: url('images/heroimage.jpg');
+    background-image: url(https://cdn.wallpapersafari.com/29/48/AQwE3t.jpg);
+    /* background: url('images/xyz.jpg'); */
     background-size: 100vw;
-    position:sticky;
+    position: relative;
 }
 /* text css above hero image*/
 .hero_title {
