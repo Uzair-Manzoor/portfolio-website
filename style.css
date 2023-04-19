@@ -8,7 +8,6 @@
     height: 100vh;
     width: 100vw;
     background-image: url(https://cdn.wallpapersafari.com/29/48/AQwE3t.jpg);
-    /* background: url('images/xyz.jpg'); */
     background-size: 100vw;
     position: relative;
 }
@@ -29,7 +28,13 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(221, 221, 221);
+    color: rgb(205, 228, 235);
+}
+.col-lg-8 {
+    font-family: cursive;
+}
+#about, #services, #portfolio, #contact {
+    background-color: rgb(223, 216, 208);
 }
 
 /* spacing on all sections */
