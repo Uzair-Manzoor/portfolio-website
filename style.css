@@ -9,7 +9,6 @@
     background-color: #0c0202;
 }
 
-
 .bgimage {
     height: 100vh;
     width: 100vw;
@@ -55,6 +54,9 @@
 /* about section image css */
 .imageAboutPage {
     width: 100%;
+    border-radius: 2em;
+    border: 6px solid #647c85;
+    margin-bottom: 25px;
 }
 
 /* services section css */
