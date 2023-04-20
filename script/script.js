@@ -17,3 +17,14 @@ const menuToggle = document.getElementById('navbarSupportedContent')
 navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
+
+const bouncy = document.querySelector(".bouncy");
+
+bouncy.addEventListener("mouseenter", toggleRubberBand);
+
+function toggleRubberBand(e){
+  bouncy.classList.add("bouncing");
+  bouncy.addEventListener("animationend", ()=>{
+    bouncy.classList.remove("bouncing");
+  });
+}
