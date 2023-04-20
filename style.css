@@ -34,7 +34,8 @@
     font-family: cursive;
 }
 #about, #services, #portfolio, #contact {
-    background-color: rgb(223, 216, 208);
+    background-color: #002a38;
+    color: #647c85;
 }
 
 /* spacing on all sections */
