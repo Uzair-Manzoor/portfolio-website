@@ -35,7 +35,7 @@
     transform: translate(-50%, -50%);
     color: rgb(205, 228, 235);
 }
-.col-lg-8 {
+.col-lg-8{
     font-family: monospace;
     font-size: 15px;
 }
@@ -83,9 +83,9 @@
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
-    cursor: pointer;
+    cursor:pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover, .hero_title:hover, .hero_desc:hover {
     color: #e6a205;
 }
 .fab {
