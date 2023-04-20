@@ -1,6 +1,6 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: rgb(51, 3, 3);
+    background-color: #614400;
 }
 
 /* hero background image */
@@ -10,9 +10,10 @@
 }
 
 .bgimage {
-    height: 100vh;
+    margin-top: 60px;
+    height: 65vh;
     width: 100vw;
-    background-image: url(https://images.unsplash.com/photo-1658708818685-b524d9abd4f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-HD-Background.jpg);
     background-size: 100vw;
     position: relative;
 }
