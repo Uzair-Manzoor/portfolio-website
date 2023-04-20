@@ -37,6 +37,7 @@
 }
 .col-lg-8 {
     font-family: monospace;
+    font-size: 15px;
 }
 #about, #services, #portfolio, #contact {
     background-color: #002a38;
@@ -55,7 +56,7 @@
 .imageAboutPage {
     width: 100%;
     border-radius: 100%;
-    border: 2px solid #98b3bd;
+    border: 18px solid #e6a205;
     margin-bottom: 25px;
 }
 
