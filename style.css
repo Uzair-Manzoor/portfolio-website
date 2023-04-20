@@ -12,7 +12,7 @@
 .bgimage {
     height: 100vh;
     width: 100vw;
-    background-image: url(https://cdn.wallpapersafari.com/29/48/AQwE3t.jpg);
+    background-image: url(https://images.unsplash.com/photo-1658708818685-b524d9abd4f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-size: 100vw;
     position: relative;
 }
@@ -56,7 +56,7 @@
 .imageAboutPage {
     width: 100%;
     border-radius: 100%;
-    border: 18px solid #e6a205;
+    border: 2px solid #e6a205;
     margin-bottom: 25px;
 }
 
