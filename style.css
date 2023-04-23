@@ -81,6 +81,10 @@
     border: 1px solid #e6a205;
 }
 
+.google-maps-html {
+    border: 3px solid whitesmoke;
+}
+
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
@@ -130,10 +134,9 @@
 
   .form {
     background-color: #e6a205;
-    padding: 20px;
-    border-radius: 0.5em;
+    padding-top: 20px;
     text-align: center;
     font-size: larger;
-    border: 2px solid #000000;
+    border: 1px solid #9c0808;
     color: rgb(0, 85, 81);
   }
