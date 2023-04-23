@@ -12,10 +12,13 @@
 .bgimage {
     margin-top: 60px;
     height: 65vh;
-    width: 100vw;
-    background-image: url(https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg?cs=srgb&dl=pexels-rafael-guajardo-604684.jpg&fm=jpg);
-    background-size: 100vw;
+    width: 100%;
+    background-image: url(https://cdn.wallpapersafari.com/11/92/ynTSYi.jpg);
+    background-size: 100%;
     position: relative;
+    background-repeat: no-repeat;
+    display:ruby;
+    background-position: center;
 }
 /* text css above hero image*/
 .hero_title {
