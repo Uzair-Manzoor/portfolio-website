@@ -127,3 +127,13 @@
           transform: scaleX(1) scaleY(1);
       }
   }
+
+  .form {
+    background-color: #e6a205;
+    padding: 20px;
+    border-radius: 0.5em;
+    text-align: center;
+    font-size: larger;
+    border: 2px solid #000000;
+    color: rgb(0, 85, 81);
+  }
