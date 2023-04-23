@@ -13,7 +13,7 @@
     margin-top: 60px;
     height: 65vh;
     width: 100vw;
-    background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/07/Weather-HD-Background.jpg);
+    background-image: url(https://images.pexels.com/photos/604684/pexels-photo-604684.jpeg?cs=srgb&dl=pexels-rafael-guajardo-604684.jpg&fm=jpg);
     background-size: 100vw;
     position: relative;
 }
@@ -90,11 +90,11 @@
     color: #e6a205;
 }
 .fab {
-    color: #000000;
+    color: rgb(108, 119, 122);
 }
 /* footer styling */
 #footer {
-    background-color: #808080;
+    background-color: #614400;
     text-align: center;
 }
 
