@@ -49,19 +49,19 @@
 }
 
 /* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
-} */
+#about, #services, #portfolio, #contact {
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
 #contact {
     padding-bottom: 4rem;
 }
 /* about section image css */
 .imageAboutPage {
     width: 100%;
-    border-radius: 100%;
     border: 2px solid #e6a205;
     margin-bottom: 25px;
+    align-items: center;
 }
 
 /* services section css */
@@ -136,10 +136,10 @@
   }
 
   .form {
-    background-color: #e6a205;
+    /* background-color: #e6a205; */
     padding-top: 20px;
     text-align: center;
     font-size: larger;
-    border: 1px solid #9c0808;
-    color: rgb(0, 85, 81);
+    /* border: 1px solid #9c0808; */
+    color: #e6a205;
   }
