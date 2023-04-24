@@ -40,7 +40,7 @@
     color: rgb(205, 228, 235);
 }
 .col-lg-8{
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
 #about, #services, #portfolio, #contact {
