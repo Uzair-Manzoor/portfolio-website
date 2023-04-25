@@ -33,6 +33,7 @@
 }
 .hero-text {
     text-align: center;
+    margin-top: 100px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -49,7 +50,7 @@
 }
 
 /* spacing on all sections */
-#about, #services, #portfolio, #contact {
+#services, #portfolio, #contact {
     margin-top: 1rem;
     padding-top: 1rem;
 }
