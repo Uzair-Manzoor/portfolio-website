@@ -94,7 +94,13 @@
     font-size: 36px;
     cursor:pointer;
 }
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover, .hero_title:hover, .hero_desc:hover {
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
+    color: #e6a205;
+    border: 3px solid;
+    border-radius: 1rem;
+    padding: 5px;
+}
+.hero_title:hover, .hero_desc:hover {
     color: #e6a205;
 }
 .fab {
@@ -137,10 +143,8 @@
   }
 
   .form {
-    /* background-color: #e6a205; */
     padding-top: 20px;
     text-align: center;
     font-size: larger;
-    /* border: 1px solid #9c0808; */
     color: #e6a205;
   }
