@@ -24,6 +24,18 @@
     background-position: center;
 }
 
+@media (min-width: 480px) {
+    .bgimage { height: 100%; }
+}
+
+@media (min-width: 768px) {
+    .bgimage { height: 100%; }
+}
+
+@media (min-width: 992px) {
+    .bgimage { height: 100%; }
+}
+
 /* text css above hero image*/
 .hero_title {
     font-family: 'fantasy', Georgia, 'Times New Roman', Times, serif;
