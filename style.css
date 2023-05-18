@@ -38,7 +38,7 @@
 
 /* text css above hero image*/
 .hero_title {
-    font-family: 'fantasy', Georgia, 'Times New Roman', Times, serif;
+    font-family: fantasy, Georgia;
     font-size: 4.5rem;
     font-weight: 200;
 }
@@ -54,7 +54,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #428299;
+    color: rgb(54, 161, 190);
 }
 .col-lg-8{
     font-family: Arial, Helvetica, sans-serif;
@@ -102,7 +102,7 @@
 }
 
 .google-maps-html {
-    border: 3px solid whitesmoke;
+    border: 3px solid rgb(134, 33, 33);
 }
 
 /* social media icons styling */
@@ -120,7 +120,7 @@
     color: #e6a205;
 }
 .fab {
-    color: rgb(108, 119, 122);
+    color: rgb(157, 182, 69);
 }
 /* footer styling */
 #footer {
@@ -170,7 +170,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   h3 a {
-    color: #6e1d17;
+    color: rgb(145, 226, 69);
     text-decoration: none;
   }
 
