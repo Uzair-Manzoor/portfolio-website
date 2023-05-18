@@ -14,9 +14,9 @@
     /* margin-top: 60px; */
     height: 100vh;
     width: 100%;
-    /* background-image: url(https://wallpapercave.com/wp/wp5515699.jpg); */
-    /* background-image: url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://doitbeforeme.com/wp-content/uploads/2023/03/iPhone-aesthetic-black-rose-wallpaper-scaled.webp);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://wallpapercave.com/wp/wp5515699.jpg); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://doitbeforeme.com/wp-content/uploads/2023/03/iPhone-aesthetic-black-rose-wallpaper-scaled.webp); */
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
