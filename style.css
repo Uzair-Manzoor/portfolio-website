@@ -5,8 +5,9 @@
 
 /* hero background image */
 
-#abkahanjyegabachky {
+#abkahanjyegabachky, html {
     background-color: #002a38;
+    height: 100%;
 }
 
 .bgimage {
