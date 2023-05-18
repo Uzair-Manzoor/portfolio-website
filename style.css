@@ -24,7 +24,7 @@
 }
 /* text css above hero image*/
 .hero_title {
-    font-family: fantasy;
+    font-family: 'fantasy', Georgia, 'Times New Roman', Times, serif;
     font-size: 4.5rem;
     font-weight: 200;
 }
@@ -40,7 +40,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(205, 228, 235);
+    color: #f8f403;
 }
 .col-lg-8{
     font-family: Arial, Helvetica, sans-serif;
@@ -57,7 +57,7 @@
     padding-top: 1rem;
 }
 #contact {
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 /* about section image css */
 .imageAboutPage {
@@ -149,4 +149,9 @@
     text-align: center;
     font-size: larger;
     color: #e6a205;
+  }
+  li a, p a, h3 a {
+    color: #f8f403;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
