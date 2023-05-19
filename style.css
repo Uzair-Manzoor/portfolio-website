@@ -6,7 +6,9 @@
 /* hero background image */
 
 #abkahanjyegabachky, html {
-    background-color: #002a38;
+    /* background-color: #002a38; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif);
+
     height: 100%;
 }
 
@@ -61,7 +63,9 @@
     font-size: 15px;
 }
 #about, #services, #portfolio, #contact {
-    background-color: #002a38;
+    /* background-color: #002a38; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif);
+
     color: #e6a205;
 }
 
