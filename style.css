@@ -8,15 +8,21 @@
 #abkahanjyegabachky, html {
     /* background-color: #002a38; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif);
+
+    background-size: cover;
+    position: relative;
+    background-repeat:repeat-y;
+    display:block;
+    background-position: center;
+
     height: 100%;
 }
 
 .bgimage {
-    /* margin-top: 60px; */
     height: 100vh;
     width: 100%;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://wallpapercave.com/wp/wp5515699.jpg); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.gifer.com/b7D.gif); */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif); */
     /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://doitbeforeme.com/wp-content/uploads/2023/03/iPhone-aesthetic-black-rose-wallpaper-scaled.webp); */
     background-size: cover;
     position: relative;
@@ -60,17 +66,12 @@
 
 #about, #services, #portfolio, #contact {
     /* background-color: #002a38; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif);
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif); */
     background-repeat: no-repeat;
     background-position:center;
     position: relative;
     background-size: cover;
     color: #e6a205;
-}
-
-/* spacing on all sections */
-#services, #portfolio, #contact, #about {
-    /* margin-top: 1rem; */
     padding-top: 3rem;
     padding-bottom: 6rem;
 }
