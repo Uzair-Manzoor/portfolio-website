@@ -1,33 +1,29 @@
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: #614400;
+    background-color: rgb(39, 3, 3);
+    box-shadow: 0 0 20px 0 rgba(184, 132, 132, 0.8);
 }
 
-/* hero background image */
-
 #abkahanjyegabachky, html {
-    /* background-color: #002a38; */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif);
-
+    background: linear-gradient(rgb(0, 0, 0), rgb(39, 3, 3), rgb(0, 0, 0));
+    margin: 0;
     background-size: cover;
     position: relative;
     background-repeat:repeat-y;
     display:block;
     background-position: center;
-
     height: 100%;
 }
 
+/* hero background image */
+
 .bgimage {
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.gifer.com/b7D.gif); */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif); */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://doitbeforeme.com/wp-content/uploads/2023/03/iPhone-aesthetic-black-rose-wallpaper-scaled.webp); */
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
-    display:flex;
+    display:block;
     background-position: center;
 }
 
@@ -48,6 +44,7 @@
     font-family: fantasy, Georgia;
     font-size: 4.5rem;
     font-weight: 200;
+    box-shadow: 0 0 20px 0 rgba(49, 11, 11, 0.8);
 }
 
 .hero_desc {
@@ -61,17 +58,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(54, 161, 190);
+    color: rgb(134, 29, 29);
 }
 
 #about, #services, #portfolio, #contact {
-    /* background-color: #002a38; */
-    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/8d/4a/5d/8d4a5d317164659df945278a6a8ed9be.gif); */
+    background: linear-gradient(rgb(0, 0, 0), rgb(51, 3, 3), rgb(0, 0, 0));
     background-repeat: no-repeat;
     background-position:center;
     position: relative;
     background-size: cover;
-    color: #e6a205;
+    color: #a80c0c;
     padding-top: 3rem;
     padding-bottom: 6rem;
 }
@@ -79,9 +75,9 @@
 /* about section image css */
 .imageAboutPage {
     width: 100%;
-    border: 2px solid #e6a205;
     margin-bottom: 25px;
     align-items: center;
+    box-shadow: 0 0 30px 0 rgba(202, 101, 101, 0.8)
 }
 
 /* services section css */
@@ -98,10 +94,10 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #008000;
+    color: #921f1f;
 }
 .servicesText:hover {
-    border: 1px solid #e6a205;
+    border: 1px solid #ff0000;
 }
 
 .google-maps-html {
@@ -114,21 +110,22 @@
     cursor:pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
-    color: #e6a205;
+    color: #c00a0a;
     border: 3px solid;
     border-radius: 1rem;
     padding: 5px;
 }
 .hero_title:hover, .hero_desc:hover {
-    color: #e6a205;
+    color: #ec2e2e;
 }
 .fab {
-    color: rgb(157, 182, 69);
+    color: rgb(121, 42, 42);
 }
 /* footer styling */
 #footer {
-    background-color: #614400;
+    background-color: #470707;
     text-align: center;
+    box-shadow: 0 0 20px 0 rgba(184, 132, 132, 0.8);
 }
 
 .bouncy {
@@ -165,19 +162,21 @@
     padding-top: 45px;
     text-align: center;
     font-size: larger;
-    color: #e6a205;
+    color: #fd0202;
   }
+
+
   li a, p a{
-    color: #fcda8b;
+    color: #ff0000;
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   h3 a {
-    color: rgb(145, 226, 69);
+    color: rgb(109, 41, 41);
     text-decoration: none;
   }
 
   h3 a:hover, li a:hover, p a:hover {
     text-decoration: none;
-    color: #e6a205;
+    color: #a10e04;
   }

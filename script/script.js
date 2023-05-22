@@ -18,6 +18,8 @@ navLinks.forEach((l) => {
     l.addEventListener('click', () => { new bootstrap.Collapse(menuToggle).toggle() })
 })
 
+/* bouncy Text */
+
 const bouncy = document.querySelector(".bouncy");
 
 bouncy.addEventListener("mouseenter", toggleRubberBand);
