@@ -4,7 +4,7 @@
     box-shadow: 0 0 20px 0 rgba(184, 132, 132, 0.8);
 }
 
-#abkahanjyegabachky, html {
+body, html {
     background: linear-gradient(rgb(0, 0, 0), rgb(39, 3, 3), rgb(0, 0, 0));
     margin: 0;
     background-size: cover;
@@ -41,7 +41,7 @@
 
 /* text css above hero image*/
 .hero_title {
-    font-family: fantasy, Georgia;
+    font-family: Maven Pro, 'fantasy', Georgia, sans-serif !important;;
     font-size: 4.5rem;
     font-weight: 200;
     box-shadow: 0 0 20px 0 rgba(49, 11, 11, 0.8);
@@ -84,6 +84,7 @@
 .servicesText.card {
     height: 280px;
     cursor: pointer;
+    background-color: #470707;
   }
 .servicesIcon {
     font-size: 36px;
@@ -94,10 +95,14 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #921f1f;
+    color: #daa8a2;
 }
 .servicesText:hover {
     border: 1px solid #ff0000;
+}
+
+.card-body {
+    background-color: #1f0303;
 }
 
 .google-maps-html {
@@ -110,24 +115,23 @@
     cursor:pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
-    color: #c00a0a;
-    border: 3px solid;
-    border-radius: 1rem;
-    padding: 5px;
+    color: #cecc75;
 }
 .hero_title:hover, .hero_desc:hover {
-    color: #ec2e2e;
+    color: #cecc75;
+
 }
 .fab {
     color: rgb(121, 42, 42);
 }
+
 /* footer styling */
 #footer {
     background-color: #470707;
     text-align: center;
     box-shadow: 0 0 20px 0 rgba(184, 132, 132, 0.8);
 }
-
+/* 
 .bouncy {
     text-align: center;
   }
@@ -156,7 +160,7 @@
       100%{
           transform: scaleX(1) scaleY(1);
       }
-  }
+  } */
 
   .form {
     padding-top: 45px;
@@ -178,5 +182,6 @@
 
   h3 a:hover, li a:hover, p a:hover {
     text-decoration: none;
-    color: #a10e04;
+    color: #cecc75;
+    font-family: -apple-system;
   }
