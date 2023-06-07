@@ -47,6 +47,28 @@ body, html {
     box-shadow: 0 0 20px 0 rgba(49, 11, 11, 0.8);
 }
 
+
+@keyframes move {
+    0% {
+      transform: translateX(0);
+    }
+  
+    50% {
+      transform: translateX(800px);
+    }
+  
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .imageAboutPage {
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+
 .hero_desc {
     font-size: 1.5rem;
     font-family: ui-rounded;
