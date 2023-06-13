@@ -54,7 +54,7 @@ body, html {
     }
   
     50% {
-      transform: translateX(800px);
+      transform: translateX(-100px);
     }
   
     100% {
@@ -64,8 +64,9 @@ body, html {
   
   .imageAboutPage {
     animation-name: move;
-    animation-duration: 5s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
+    animation-direction:alternate-reverse ;
   }
 
 
