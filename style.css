@@ -63,10 +63,10 @@ html {
 }
 
 .imageAboutPage {
-  animation-name: move;
+  /* animation-name: move;
   animation-duration: 2s;
   animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
+  animation-direction: alternate-reverse; */
   width: 100%;
   margin-bottom: 25px;
   align-items: center;
